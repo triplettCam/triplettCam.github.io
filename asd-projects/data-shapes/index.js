@@ -43,7 +43,7 @@ $(document).ready(function () {
 
   // TODO 2: add a new property to all data shapes
   dataShapes.puch(shape)
-  for[ i = 0; i < dataShapes.length; i++]{
+  for( i = 0; i < dataShapes.length; i++){
     var currentShape = dataShapes[i];
     if(currentShape.color === "red"){
       currentShape.goodBehavior = "bounce";
@@ -68,7 +68,7 @@ $(document).ready(function () {
   }
 
   // TODO 5-a: add a function that handles the bad display type
-  function handleBad
+  function handleBad(data, repeat)
 
   /////////////////////////////////////////////////
   // BUTTON HANDLERS BELOW HERE (3-b, 4-b, 5-b) ///
